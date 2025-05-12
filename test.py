@@ -2,7 +2,7 @@ import psycopg2
 
 conn_params = {
     "host": "db.vbbjmbmwijtdkoepnhsz.supabase.co",
-    "port": 5432,
+    "port": 5235,
     "database": "postgres",
     "user": "postgres",
     "password": 'Km5="Jx_jn8N3wb'
@@ -25,4 +25,4 @@ try:
     conn.close()
 
 except Exception as e:
-    print("Erreur de connexion:", e)
+    print("Erreur de connexion à la base de données", e)
