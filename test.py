@@ -25,4 +25,4 @@ try:
     conn.close()
 
 except Exception as e:
-    print("Erreur de connexion à la base de données", e)
+    print("ERROR", e)
